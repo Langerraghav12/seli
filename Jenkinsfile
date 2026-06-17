@@ -6,7 +6,7 @@ maven 'Maven'
 stages{
 stage('Checkout'){
 steps{
-git branch:'main',url:'https://github.com/Langerraghav12/seli.git'
+git branch:'master',url:'https://github.com/Langerraghav12/seli.git'
 }}
 stage('Build'){
 steps{
